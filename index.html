@@ -8,9 +8,9 @@
 
     <meta name="description" content="Intsagram Replica">
     <meta name="author" content="Ashauntia Smith">
-    <link rel="icon" href="">
+    <link rel="icon" href="/img/icon.png">
 
-    <title>Propeller Basic HTML Template</title>
+    <title>Instagram Replica</title>
 
     <!-- Bootstrap css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -20,39 +20,177 @@
 
     <!-- Propeller css -->
     <link href="/dist/css/propeller.min.css" rel="stylesheet">
+
+    <!--My css-->
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!-- Nav menu with user information -->
-        <nav class="navbar navbar-inverse navbar-fixed-top pmd-navbar pmd-z-depth">
-            <div class="container-fluid">
-                <!-- User information -->
-                <div class="dropdown pmd-dropdown pmd-user-info pull-right">
-                    <a href="javascript:void(0);" class="btn-user dropdown-toggle media" data-toggle="dropdown" aria-expanded="false">
+    <!-- Nav menu with user information -->
+    <nav class="navbar navbar-inverse navbar-fixed-top pmd-navbar pmd-z-depth">
+        <div class="container-fluid">
+
+            <!-- User information -->
+            <div class="dropdown pmd-dropdown pmd-user-info pull-right">
+                <a href="javascript:void(0);" class="btn-user dropdown-toggle media" data-toggle="dropdown" aria-expanded="false">
+                    <div class="media-left">
+                        <img src="img/user1.jpg" width="40" height="40" alt="avatar">
+                    </div>
+                    <div class="media-body media-middle">
+                        shaniikage
+                    </div>
+                    <div class="media-right media-middle">
+                        <i class="material-icons md-dark pmd-sm">more_vert</i>
+                    </div>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                    <li class="add-post"><a href="javascript:void(0);">Add Post</a></li>
+                    <li><a href="javascript:void(0);">Edit Profile</a></li>
+                    <li><a href="javascript:void(0);">Logout</a></li>
+                </ul>
+            </div>
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-brand navbar-brand-custome">Instagram</a>
+            </div>
+        </div>
+        <div class="pmd-sidebar-overlay"></div>
+
+    </nav>
+
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <!--Empty Column-->
+            <div class="col-md-4">
+
+                <!-- Default card 1 starts -->
+                <div class="pmd-card pmd-card-default pmd-z-depth">
+
+                    <!-- Card header -->
+                    <div class="pmd-card-title">
                         <div class="media-left">
-                            <img src="http://propeller.in/assets/images/avatar-icon-40x40.png" width="40" height="40" alt="avatar">
+                            <a class="avatar-list-img" href="javascript:void(0);">
+                                <img src="/img/user1.jpg" width="40" height="40">
+                            </a>
                         </div>
                         <div class="media-body media-middle">
-                            User
+                            <h3 class="pmd-card-title-text">shaniikage</h3>
+                            <span class="pmd-card-subtitle-text">5 mins ago</span>
                         </div>
-                        <div class="media-right media-middle">
-                            <i class="material-icons md-dark pmd-sm">more_vert</i>
-                        </div>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                        <li><a href="javascript:void(0);">Edit Profile</a></li>
-                        <li><a href="javascript:void(0);">Logout</a></li>
-                    </ul>
-                </div>
+                    </div>
 
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <a href="javascript:void(0);" class="navbar-brand navbar-brand-custome">Brand</a>
+                    <!-- Card media -->
+                    <div class="pmd-card-media">
+                        <img src="img/user5.jpg" width="1184" height="666" class="img-responsive">
+                    </div>
+
+                    <!-- Card media actions -->
+                    <div class="pmd-card-actions">
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button"><i class="material-icons pmd-sm">favorite</i></button>
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button">150</button>
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button"><i class="material-icons pmd-sm">comment</i></button>
+                    </div>
+
+                    <div class="pmd-card-body">
+                        <strong>shaniikage </strong>I love my red hair! What do you guys think?<br>
+
+                        <!--Card Comments-->
+                        <strong>great_nessa </strong>Your hair is beautiful! Who did it?<br>
+                        <strong>ashauntia </strong>Red huh? Different...<br>
+                        <strong>mystery_girl </strong>I'm loving it too girl!<br>
+                        <a href="#">Load more comments</a>
+                    </div>
+
                 </div>
+                <!--Default card 1 ends -->
+
+                <!-- Default card 2 starts -->
+                <div class="pmd-card pmd-card-default pmd-z-depth">
+
+                    <!-- Card header -->
+                    <div class="pmd-card-title">
+                        <div class="media-left">
+                            <a class="avatar-list-img" href="javascript:void(0);">
+                                <img src="/img/user2.jpg" width="40" height="40">
+                            </a>
+                        </div>
+                        <div class="media-body media-middle">
+                            <h3 class="pmd-card-title-text">uniquely_blessed</h3>
+                            <span class="pmd-card-subtitle-text">10 mins ago</span>
+                        </div>
+                    </div>
+
+                    <!-- Card media -->
+                    <div class="pmd-card-media">
+                        <img src="img/tanja-heffner-155367.jpg" width="1184" height="666" class="img-responsive">
+                    </div>
+
+                    <!-- Card media actions -->
+                    <div class="pmd-card-actions">
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button"><i class="material-icons pmd-sm">favorite</i></button>
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button">523k</button>
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button"><i class="material-icons pmd-sm">comment</i></button>
+                    </div>
+
+                    <div class="pmd-card-body">
+                        <strong>uniquely_blessed </strong>Someone say Deeelish Curls!!!!!<br>
+
+                        <!--Card Comments-->
+                        <strong>nessa </strong>DEEELISH CURLS!!!!<br>
+                        <strong>tia_totter </strong>Is that your real hair?<br>
+                        <strong>happiness_truth_strength </strong>Loooks so good!<br>
+                        <a href="#">Load more comments</a>
+                    </div>
+
+                </div>
+                <!--Default card 2 ends -->
+
+                <!-- Default card 3 starts -->
+                <div class="pmd-card pmd-card-default pmd-z-depth">
+
+                    <!-- Card header -->
+                    <div class="pmd-card-title">
+                        <div class="media-left">
+                            <a class="avatar-list-img" href="javascript:void(0);">
+                                <img src="/img/user3.jpg" width="40" height="40">
+                            </a>
+                        </div>
+                        <div class="media-body media-middle">
+                            <h3 class="pmd-card-title-text">awesome_one</h3>
+                            <span class="pmd-card-subtitle-text">25 mins ago</span>
+                        </div>
+                    </div>
+
+                    <!-- Card media -->
+                    <div class="pmd-card-media">
+                        <img src="img/david-di-veroli-3639.jpg" width="1184" height="666" class="img-responsive">
+                    </div>
+
+                    <!-- Card media actions -->
+                    <div class="pmd-card-actions">
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button"><i class="material-icons pmd-sm">favorite</i></button>
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button">1k</button>
+                        <button class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" type="button"><i class="material-icons pmd-sm">comment</i></button>
+                    </div>
+
+                    <div class="pmd-card-body">
+                        <strong>awesome_one </strong>Health food! What's on your plate?<br>
+
+                        <!--Card Comments-->
+                        <strong>master_computer_girl </strong>That's not on MY plate!<br>
+                        <strong>big_krit </strong>I can dig it! I don't think I want to eat it though.<br>
+                        <strong>confetti_heavy </strong>Ewwwwww!<br>
+                        <a href="#">Load more comments</a>
+                    </div>
+
+                </div>
+                <!--Default card 3 ends -->
             </div>
-            <div class="pmd-sidebar-overlay"></div>
-        </nav>
+            <!--End Column-->
+        </div>
+        <!--End Row-->
     </div>
     <!-- /.container -->
 
